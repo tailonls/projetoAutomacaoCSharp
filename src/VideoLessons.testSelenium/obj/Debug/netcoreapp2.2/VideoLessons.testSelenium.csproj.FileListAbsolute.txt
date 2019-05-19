@@ -1,0 +1,14 @@
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\VideoLessons.testSelenium.deps.json
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\VideoLessons.testSelenium.runtimeconfig.json
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\VideoLessons.testSelenium.runtimeconfig.dev.json
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\VideoLessons.testSelenium.dll
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\bin\Debug\netcoreapp2.2\VideoLessons.testSelenium.pdb
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\obj\Debug\netcoreapp2.2\VideoLessons.testSelenium.csprojAssemblyReference.cache
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\obj\Debug\netcoreapp2.2\VideoLessons.testSelenium.csproj.CoreCompileInputs.cache
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\obj\Debug\netcoreapp2.2\VideoLessons.testSelenium.AssemblyInfoInputs.cache
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\obj\Debug\netcoreapp2.2\VideoLessons.testSelenium.AssemblyInfo.cs
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\obj\Debug\netcoreapp2.2\VideoLessons.testSelenium.dll
+c:\GitPush\projetoAutomacaoCSharp\src\VideoLessons.testSelenium\obj\Debug\netcoreapp2.2\VideoLessons.testSelenium.pdb
