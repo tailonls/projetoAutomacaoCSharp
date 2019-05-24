@@ -1,6 +1,6 @@
 Baixar VS code
 
-Instalar Extenções:
+Instalar ExtenÃ§Ãµes:
 - .NET core test explorer
 - C#
 - C# extensions
@@ -10,21 +10,21 @@ Instalar Extenções:
 Instalar NET Core SDK 
 Executar o comando <dotnet --version> para verificar
 
-Criar projeto através do terminal usando o comando: dotnet new xunit --name "nomeDoProjeto"
+Criar projeto atravï¿½s do terminal usando o comando: dotnet new xunit --name "nomeDoProjeto"
 
 Criar Solution com o comando: dotnet new solution
 
 Abrir pasta no VS code: code .
 
-Arquivo .csproj (Serve para mostrar as extenções do projeto)
+Arquivo .csproj (Serve para mostrar as extenï¿½ï¿½es do projeto)
 
-Adicionar extenções:
+Adicionar extenï¿½ï¿½es:
 <src/nomeProjeto> 
 dotnet add package Microsoft.Extensions.Configuration
 dotnet add package Selenium.Webdriver
 
-Navegar até a pasta inicial "cd.. cd.."
-Adicionar projeto à Solution: dotnet sln add .\src\pasta\seuarquivo.csproj
+Navegar atï¿½ a pasta inicial "cd.. cd.."
+Adicionar projeto ï¿½ Solution: dotnet sln add .\src\pasta\seuarquivo.csproj
 
 Adicionar ChromeDriver na pasta do projeto
 
