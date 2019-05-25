@@ -1,29 +1,30 @@
- namespace VideoLessons.testSelenium.Utils {
-     public static class DriverFactory {
-         public static IWebDriver CreateWebDriver (Browser browser, string pathDriver, bool headless) {
-             IWebDriver webDriver = null;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 
-             switch (browser) {
-                 case Browsers.Chrome:
-                     ChromeOptions chromeOptions = new ChromeOptions ();
-                     if (headless) {
-                         chromeOptions.addArgument ("--headless");
-                     }
-                     webDriver = new ChromeDriver (pathDriver, chromeOptions);
-                     break;
+namespace VideoLessons.testSelenium.Utils {
+    public static class DriverFactory {
+        public static IWebDriver CreateWebDriver (Browsers browser, string pathDriver, bool headless) {
+            IWebDriver webDriver = null;
 
-                 case Browsers.Firefox:
-                     FireFoxOptions fireFoxOptions = new FireFoxOptions ();
-                     if (headless) {
-                         fireFoxOptions.addArgument ("--headless");
-                     }
-                     webDriver = new FireFoxOptionsDriver (pathDriver, fireFoxOptions);
-                     break;
-                 case Browsers.Edge:
+            switch (browser) {
+                case Browsers.Chrome:
+                    ChromeOptions chromeOptions = new ChromeOptions ();
+                    if (headless) {
+                        chromeOptions.AddArgument ("--headless");
+                    }
+                    webDriver = new ChromeDriver (pathDriver, chromeOptions);
+                    break;
 
-                 default:
-             }
-             return webDriver;
-         }
-     }
- }
+                case Browsers.Firefox:
+                    FirefoxOptions fireFoxOptions = new FirefoxOptions ();
+                    if (headless) {
+                        fireFoxOptions.AddArgument("--headless");
+                    }
+                    webDriver = new FirefoxDriver (pathDriver, fireFoxOptions);
+                    break;
+            }
+            return webDriver;
+        }
+    }
+}
