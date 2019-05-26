@@ -1,6 +1,6 @@
 namespace VideoLessons.testSelenium.Utils
 {
-    public enum Browsers {
+    public enum Browser {
         Firefox,
         Chrome,
         Edge

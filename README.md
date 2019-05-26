@@ -33,3 +33,5 @@ Adicionar projeto ao Solution: dotnet sln add .\src\pasta\seuarquivo.csproj
 Adicionar ChromeDriver na pasta do projeto
 
 < src/nomeProjeto > Criar arquivo appsettings.json  
+
+Adicionar o arquivo "appsettings.json" no caminho \bin\Debug\netcoreapp2.2

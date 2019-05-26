@@ -4,11 +4,11 @@ using OpenQA.Selenium.Firefox;
 
 namespace VideoLessons.testSelenium.Utils {
     public static class DriverFactory {
-        public static IWebDriver CreateWebDriver (Browsers browser, string pathDriver, bool headless) {
+        public static IWebDriver CreateWebDriver (Browser browser, string pathDriver, bool headless) {
             IWebDriver webDriver = null;
 
             switch (browser) {
-                case Browsers.Chrome:
+                case Browser.Chrome:
                     ChromeOptions chromeOptions = new ChromeOptions ();
                     if (headless) {
                         chromeOptions.AddArgument ("--headless");
@@ -16,7 +16,7 @@ namespace VideoLessons.testSelenium.Utils {
                     webDriver = new ChromeDriver (pathDriver, chromeOptions);
                     break;
 
-                case Browsers.Firefox:
+                case Browser.Firefox:
                     FirefoxOptions fireFoxOptions = new FirefoxOptions ();
                     if (headless) {
                         fireFoxOptions.AddArgument("--headless");

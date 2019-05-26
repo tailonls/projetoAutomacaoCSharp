@@ -1,16 +1,15 @@
 using System.IO;
 using Microsoft.Extensions.Configuration;
 
-namespace VideoLessons.testSelenium.Testes
-{
+namespace VideoLessons.testSelenium.Testes {
     public class BaseTest {
-        private IConfiguration _configuration;
-        public BaseTest(){
-            var builder = new ConfigurationBuilder()
-            .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json");
+        protected IConfiguration _configuration;
+        public BaseTest () {
+            var builder = new ConfigurationBuilder ()
+                .SetBasePath (Directory.GetCurrentDirectory ())
+                .AddJsonFile ("appsettings.json");
 
-            _configuration = builder.Build();
+            _configuration = builder.Build ();
         }
     }
 }
